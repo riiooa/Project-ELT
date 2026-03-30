@@ -1,0 +1,38 @@
+[0m20:57:27.916921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E951F9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E951F890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E951FA40>]}
+
+
+============================== 20:57:27.928035 | cd01bf07-106d-48e8-b7ec-743d34b004f8 ==============================
+[0m20:57:27.928035 [info ] [MainThread]: Running with dbt=1.7.9
+[0m20:57:27.929101 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'invocation_command': 'dbt init', 'printer_width': '80', 'target_path': 'None', 'no_print': 'None', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m20:57:43.854338 [info ] [MainThread]: A project called postgres_transformations already exists here.
+[0m20:57:43.856266 [debug] [MainThread]: Command `dbt init` succeeded at 20:57:43.856266 after 16.26 seconds
+[0m20:57:43.857276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E9465100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E888D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197E92BEDE0>]}
+[0m20:57:43.858819 [debug] [MainThread]: Flushing usage events
+[0m20:58:25.532029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DFEF800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DFEF9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DFEF860>]}
+
+
+============================== 20:58:25.532029 | 600d1cce-ea16-470d-9fe1-82d2f1ad40c2 ==============================
+[0m20:58:25.532029 [info ] [MainThread]: Running with dbt=1.7.9
+[0m20:58:25.538218 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'no_print': 'None', 'profiles_dir': 'C:\\Users\\Lenovo\\.dbt', 'use_colors': 'True', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'cache_selected_only': 'False', 'target_path': 'None'}
+[0m20:58:36.423839 [debug] [MainThread]: Starter project path: D:\1ProjectPorto\project-elt\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m20:58:36.479464 [info ] [MainThread]: 
+Your new dbt project "postgres_tranformasi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:58:36.479464 [info ] [MainThread]: Setting up your profile.
+[0m21:00:51.384825 [info ] [MainThread]: Profile postgres_tranformasi written to C:\Users\Lenovo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:00:51.388357 [debug] [MainThread]: Command `dbt init` succeeded at 21:00:51.386843 after 145.94 seconds
+[0m21:00:51.388357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DE6A390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DD8EFF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB1DC9A780>]}
+[0m21:00:51.389371 [debug] [MainThread]: Flushing usage events

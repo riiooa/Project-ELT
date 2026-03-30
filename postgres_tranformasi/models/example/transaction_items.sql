@@ -1,0 +1,1 @@
+SELECT * FROM {{source('destination_db', 'transaction_items')}}

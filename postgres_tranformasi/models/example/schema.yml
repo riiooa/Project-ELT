@@ -1,0 +1,16 @@
+
+version: 2
+
+sources:
+  - name: destination_db
+    description: "Raw data from the destination PostgreSQL database."
+    database: destination_db
+    schema: public
+    tables:
+      - name: customers
+        description:  "List of customers."
+      - name: products
+        description: "List of products."
+      - name: transaction_items
+        description: "Detail Transactions."
+      
